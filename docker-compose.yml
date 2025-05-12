@@ -1,0 +1,7 @@
+services:
+  node:
+    build:
+      context: ./docker
+    container_name: node
+    ports:
+      - 3000:3000
